@@ -1,11 +1,11 @@
-const Discord = require('discord.js');
+onst Discord = require('discord.js');
 const client = new Discord.Client();
 const moment = require("moment");
 const fs = require('fs')
 const mmss = require('ms');
-var prefix = "البرفيكس هنا";///البرفيكس بتاع البوت ده البرفيكس الاساسي
+var prefix = "$";///البرفيكس بتاع البوت ده البرفيكس الاساسي
 
-client.on('ready', () => }
+client.on('ready', () => {
     console.log('I am ready!');
 });
 ////////////////////////////////////////////////////////////ده السورس الاساسي
@@ -270,7 +270,7 @@ client.on('message', message => {
   message.channel.send({
     embed : banembed
   })
-}
+
 });
 
 
